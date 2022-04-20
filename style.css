@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.header {
+    max-width: 1920px;
+    height: 900px;
+    margin: auto;
+    background-image: url('images/bgc.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+section {
+    max-width: 1920px;
+    margin: auto;
+}
+
+.footer {
+    max-width: 1920px;
+    margin: auto;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    position: relative;/* выставлено для бокса с кнопками */
+}
+
+.address {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.address_info {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 19.5px;
+    font-style: normal;
+}
+
+nav {
+    width: 100%;
+}
+
+.nav_list {
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid white;
+    border-left: none;
+    border-right: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    font-style: normal;
+}
+
+.nav_list-item {
+    border-right: 1px solid white;
+    text-align: center;
+    width: 25%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.nav_list-item:nth-child(4) {
+    border-right: none;
+}
+
+.buttons_container {
+    display: flex;
+    justify-content: space-between;
+    width: 415px;
+    height: 50px;
+    position: absolute;
+    bottom: 150px;
+    top: 700px;
+    left: auto;
+    right: auto;
+    z-index: 1;
+}
+
+.button {
+    background-color: #99862A;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.5px;
+    font-style: normal;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+}
+
+.presentation {
+    background-color: black;
+}
+
+.text_container {
+    border: 1px solid white;
+    text-align: center;
+    width: 100%;
+    margin: 100px auto;
+    display: flex;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 10%;
+    padding-right: 10%;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.presentation_title {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    line-height: 54px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.line {
+    border-bottom: 1px solid white;
+    width: 160px;
+    margin-bottom: 80px;
+}
+
+.presentation_text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.types {
+    background-color: #E6E3C4;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.types_of_vine {
+    width: 100X;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    display: flex;
+    padding: 60px 0;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.content_text {
+    width: 40%;
+}
+
+.capture {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: black;
+}
+
+.types_title {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    line-height: 54px;
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.black_line {
+    border-bottom: 1px solid black;
+    width: 160px;
+}
+
+.types_text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.types_button {
+    background-color: #99862A;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 19.5px;
+    font-weight: 500;
+    text-align: center;
+    border: none;
+    padding: 15px 30px;
+
+}
+
+td {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    color: black;
+}
+
+.vine {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    line-height: 27px;
+    color: black;
+    font-weight: bold;
+}
+
+.content_images {
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.glass_image {
+    flex-grow: 1;
+}
+
